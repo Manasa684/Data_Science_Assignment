@@ -43,7 +43,4 @@ git clone https://github.com/Manasa684/Data_Science_Assignment.git
 cd Data_Science_Assignment
 
 
-## 🏁 Conclusion
-
-This study highlights how **data visualization and statistical analysis** can uncover meaningful insights from datasets.
 

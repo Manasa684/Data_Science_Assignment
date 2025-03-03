@@ -1,19 +1,64 @@
-This directory includes a few sample datasets to get you started.
+# 📊 Data Science Assignment - Student Performance & Frailty Analysis
 
-*   `california_housing_data*.csv` is California housing data from the 1990 US
-    Census; more information is available at:
-    https://docs.google.com/document/d/e/2PACX-1vRhYtsvc5eOR2FWNCwaBiKL6suIOrxJig8LcSBbmCbyYsayia_DvPOOBlXZ4CAlQ5nlDD8kTaIDRwrN/pub
+## 📁 Overview
+This repository contains two major datasets:
+1. **Frailty Analysis Dataset** - Examines the correlation between grip strength and frailty.
+2. **Student Performance Dataset** - Analyzes factors affecting students' academic scores.
 
-*   `mnist_*.csv` is a small sample of the
-    [MNIST database](https://en.wikipedia.org/wiki/MNIST_database), which is
-    described at: http://yann.lecun.com/exdb/mnist/
+The goal of this project is to explore relationships within the data using various **visualization techniques**.
 
-*   `anscombe.json` contains a copy of
-    [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet); it
-    was originally described in
+---
 
-    Anscombe, F. J. (1973). 'Graphs in Statistical Analysis'. American
-    Statistician. 27 (1): 17-21. JSTOR 2682899.
+## 📌 Frailty Analysis
 
-    and our copy was prepared by the
-    [vega_datasets library](https://github.com/altair-viz/vega_datasets/blob/4f67bdaad10f45e3549984e17e1b3088c731503d/vega_datasets/_data/anscombe.json).
+### 📄 **Dataset Description**
+- **Height** (in inches)
+- **Weight** (in pounds)
+- **Age** (in years)
+- **Grip Strength** (in kilograms)
+- **Frailty** (Yes/No)
+
+### 📊 **Visualizations & Insights**
+1. **Boxplot: Grip Strength vs. Frailty**  
+   - Helps identify differences in grip strength between frail and non-frail individuals.  
+   - Visualizes median values and spread of data.
+
+2. **Correlation Analysis**  
+   - Computes correlation between grip strength and frailty (converted to binary).  
+   - Helps determine if lower grip strength is linked to frailty.
+
+---
+
+## 📌 Student Performance Analysis
+
+### 📄 **Dataset Description**
+This dataset consists of students' academic scores along with demographic and behavioral factors:
+- **Gender**
+- **Race/Ethnicity**
+- **Parental Education Level**
+- **Lunch Type (Standard / Free or Reduced)**
+- **Test Preparation Course Completion**
+- **Math, Reading, and Writing Scores**
+
+### 📊 **Visualizations & Insights**
+1. **Math Score Distribution (Histogram)**  
+   - Shows overall distribution of math scores.
+   - Helps detect skewness and outliers.
+
+2. **Reading Score by Gender (Boxplot)**  
+   - Compares reading performance between male and female students.
+   - Highlights differences in score distribution.
+
+3. **Writing Score by Lunch Type (Boxplot)**  
+   - Analyzes whether students receiving free/reduced lunch perform differently from those with standard lunch.
+
+4. **Math Score vs. Parental Education (Boxplot)**  
+   - Investigates if students with parents having higher education perform better in math.
+
+5. **Test Preparation Course Effect (Boxplot)**  
+   - Compares scores of students who completed the test prep course vs. those who didn’t.
+   - Helps determine the impact of preparation on academic success.
+
+---
+
+## 📂 Folder Structure

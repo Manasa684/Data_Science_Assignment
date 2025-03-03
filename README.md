@@ -11,6 +11,7 @@ The objective is to use **Python (Pandas, Matplotlib, Seaborn)** to clean, proce
 ---
 
 ## 📂 Repository Structure
+📂 Data_Science_Assignment │── 📂 data │ ├── frailty_data.csv │ ├── StudentsPerformance.csv │ │── 📂 visualizations │ ├── grip_strength_vs_frailty.png │ ├── test_preparation_impact_math.png │ ├── test_preparation_impact_reading.png │ ├── test_preparation_impact_writing.png │ ├── writing_scores_by_lunch.png │ │── 📂 notebooks │ ├── Frailty_Grip_Strength.ipynb │ ├── Student_Performance_Analysis.ipynb │ │── README.md
 
 
 ---

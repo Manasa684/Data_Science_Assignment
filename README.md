@@ -4,9 +4,7 @@ This version includes:
 ✔ **Introduction**  
 ✔ **Data Sources**  
 ✔ **Installation Instructions**  
-✔ **Detailed Analysis & Findings**  
-✔ **Conclusive Insights**  
-✔ **Next Steps & Takeaways**  
+✔ **Conclusion**
 
 ## 🏆 Introduction
 
@@ -43,4 +41,9 @@ This repository contains **datasets, Jupyter notebooks, and visualizations** to 
 ```sh
 git clone https://github.com/Manasa684/Data_Science_Assignment.git
 cd Data_Science_Assignment
+
+
+## 🏁 Conclusion
+
+This study highlights how **data visualization and statistical analysis** can uncover meaningful insights from datasets.
 
